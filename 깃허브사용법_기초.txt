@@ -1,0 +1,37 @@
+﻿
+깃허브 설치
+
+1. GitBash 설치 - 다운받은 후 설치함 
+	https://gitforwindows.org
+	
+2. New Repository 생성
+	https://github.com 회원가입 후 
+	로그인 한 후 New Repository 생성
+	https://github.com/isrka200/github_guide.git
+	
+3. Root Folder 연결 
+	원하는 위치에 폴더생성 D:\github_guide
+	폴더 오른쪽 클릭 후 Git Bash here 버큰클릭 
+	
+	git init
+	git remote add origin https://github.com/isrka200/github_guide.git
+
+4. pull 내리기 	
+	// pull 명령어 - 해당폴더로 Repository의 자료를 받아옴 
+	git pull origin master 
+
+5. Push 올리기
+	// 로컬폴더와 저장소의 싱크상태를 체크함 
+	git status 
+
+	// 변경된 파일을 모두 트레킹
+	git add . 
+	
+	// 커밋의 코멘트를 달아줌 
+	git commit -m "코멘트"
+	
+	// 실제 git에 push 
+	git push origin +master 
+
+** 테스트 
+	
