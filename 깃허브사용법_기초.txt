@@ -49,6 +49,12 @@
 		get remote add origin 깃주소
 		git pull origin master 		// 다른사람의 데이터를 로컬로 내림 
 		
+** 서버에서 수정된 내용 로컬로 다시 가져오기
+	git status
+	git pull origin master 
+	
+
+
 
 
 
